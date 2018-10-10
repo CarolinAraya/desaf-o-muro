@@ -1,0 +1,17 @@
+.post-content {
+  min-width: 300px;
+  min-height: 120px;
+  background-color: #fbfbf0;
+  border-radius: 7px;
+  margin: 30px;
+  padding: 19px;
+}
+
+.fa-trash-alt:before {
+  content: "\f2ed";
+  color: #23abbc;
+}
+
+p {
+  color: red;
+}
