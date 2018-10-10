@@ -1,11 +1,8 @@
-<div class="col">
+<div class="col content-post">
   <form [formGroup]="postForm" (ngSubmit)="addPost()">
-      <textarea formControlName="content" placeholder="¿Qué deseas publicar?"></textarea>
-      <textarea formControlName="random" placeholder="¿publicar?"></textarea>
-      <div class="row footer">
-          <div class="col">
-              <button class="float-right" type="submit">Publicar</button>
-          </div>
-      </div>
+    <textarea class="post" formControlName="content" placeholder="¿Qué deseas publicar?"></textarea>
+    <div class="row footer">
+      <button class="float-right" type="submit">Publicar</button>
+    </div>
   </form>
 </div>
