@@ -1,3 +1,10 @@
-<p>
-  post works!
-</p>
+<div *ngFor="let post of posts$ | async" class="post">
+  <div class="row">
+    <div class="col-9">
+      <textarea  class="col-12 col-md-12">{{post.contenido}}</textarea>
+      <div>
+        <button (click)="deletePost() "></button>
+      </div>
+    </div>
+  </div>
+</div>

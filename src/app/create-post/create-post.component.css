@@ -1,6 +1,6 @@
 .post {
   background-color: rgba(245, 245, 220, 0.425);
-  min-width: 363px;
+  min-width: 322px;
     min-height: 138px;
     margin-bottom: 17px;
     border: white;
@@ -24,8 +24,14 @@
     min-height: 200px;
 }
 
-.post-text-area  {
+.fa-caret-square-right:before {
+  content: "\f152";
+  color: red;
+}
 
+.btn {
+  font-size: 32px;
+ /*  margin-top: 77px; */
 }
 
 

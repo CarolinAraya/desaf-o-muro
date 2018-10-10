@@ -30,6 +30,8 @@ export class CreatePostComponent {
       random: this.postForm.value.random
     };
     this.database.addDatabase('posts', newPost);
+
+    this.postForm.reset();
   }
 
 }
