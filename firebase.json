@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/sv-muro",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

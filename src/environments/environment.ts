@@ -1,11 +1,11 @@
 export const environment = {
-  production: false,
+  production: true,
   firebase: {
-    apiKey: "AIzaSyCXO5OMkKRL4SJvVWq-c0Vss2eqqI5EH1c",
-    authDomain: "sillicon-valley.firebaseapp.com",
-    databaseURL: "https://sillicon-valley.firebaseio.com",
-    projectId: "sillicon-valley",
-    storageBucket: "sillicon-valley.appspot.com",
-    messagingSenderId: "1027895920957"
+    apiKey: "AIzaSyAYu58bBgK8kTNtmD4U2N77pwcrSWtJlrE",
+    authDomain: "red-social-79698.firebaseapp.com",
+    databaseURL: "https://red-social-79698.firebaseio.com",
+    projectId: "red-social-79698",
+    storageBucket: "red-social-79698.appspot.com",
+    messagingSenderId: "1019293340745"
   }
-};
+}
